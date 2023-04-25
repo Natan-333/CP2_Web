@@ -12,13 +12,13 @@ function Nav(){
             </li>
 
             <li>
-                <Link to="/Calçados">Calçados</Link>
+                <Link to="/calcado">Calçados</Link>
             </li>
             <li>
-                <Link to="/Camisetas">Camisetas</Link>
+                <Link to="/camisetas">Camisetas</Link>
             </li>
             <li>
-                <Link to="/Api">Equipamentos</Link>
+                <Link to="/equipamento">Equipamentos</Link>
             </li>
 
         </ul>
