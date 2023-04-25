@@ -1,9 +1,8 @@
 import React from "react"
-import {useForm} from 'react-hook-form'
-import { useEffect,useState} from 'react'
+import { useForm } from 'react-hook-form'
+import { useEffect, useState } from 'react'
 
-function Api(){
-
+export default function Equipamento(){
     const {register, handleSubmit, setValue, setFocus} = useForm();
     const [frete, setFrete] = useState('$0.00');
   
@@ -25,13 +24,13 @@ function Api(){
         })
     }
   
-    useEffect(() => {
-      if (register.estado.value === 'sp') {
-        setFrete('$10.00');
-      } else {
-        setFrete('$0.00');
-      }
-    }, [register.estado.value]);
+    // useEffect(() => {
+    //   if (register.estado.value === 'sp') {
+    //     setFrete('$10.00');
+    //   } else {
+    //     setFrete('$0.00');
+    //   }
+    // }, [register.estado.value]);
   
     return (
       <form onSubmit={handleSubmit(onSubmit)}>
@@ -67,4 +66,3 @@ function Api(){
       </form>
     );
   }
-export default Api

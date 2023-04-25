@@ -1,22 +1,25 @@
-import {BrowserRouter,Routes,Route} from 'react-router-dom'
-import Home from './Componentes/Home'
-import Calçados from './Componentes/Calçados'
-import Camisetas from './Componentes/Camisetas'
-import Nav from './Componentes/Nav'
-import Footer from './Componentes/Footer'
-import Api from './Componentes/Api'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+
+import Home from './Componentes/home'
+import Calcados from './Componentes/calcado'
+import Camisetas from './Componentes/camisetas'
+import Nav from './Componentes/nav'
+import Footer from './Componentes/footer'
+import Equipamento from './Componentes/equipamento'
 
 function App() {
   return (
     <BrowserRouter>
-      <Nav/>
-        <Routes>
-          <Route path="/" element={<Home/>}/>
-          <Route path="/Calçados" element={<Calçados/>}/>
-          <Route path="/Camisetas" element={<Camisetas/>}/>
-          <Route path="/Api" element={<Api/>}/>
-        </Routes>
-        <Footer/>
+      <Nav /> 
+      
+      <Routes>
+        <Route path="/" element={<Home/>}/>
+        <Route path="/calcado" element={<Calcados/>}/>
+        <Route path="/camisetas" element={<Camisetas/>}/>
+        <Route path="/equipamento" element={<Equipamento/>}/>
+      </Routes>
+
+      <Footer/>
     </BrowserRouter>
   );
 }
