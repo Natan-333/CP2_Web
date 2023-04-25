@@ -3,7 +3,7 @@ import '../Componentes/css/style.css'
 
 function Home(){    
     //criando o useState (manipula o stado da variável)
-    const[nome,setNome]= useState ("userName")
+    const[nome,setNome]=useState("userName")
     const[email,setEmail] = useState()
     const[userEmail,setUserEmail] = useState()
  
@@ -40,15 +40,12 @@ function Home(){
             Enviar
         </button>
          <br/><br/>
-         {/*{email}*/} 
-
-         {/*condicional para verificar se o campo email esta preenchido*/}
-         {userEmail &&(
+ 
+         {userEmail && (
             <div>
                 <p id="userEmail">O email do usuário é: <span>{userEmail}</span></p><br/>
                 <button onClick={limparEmail}>Limpar campo</button>
             </div>
-
          )}
 
 

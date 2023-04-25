@@ -15,37 +15,37 @@ function Camisetas(){
                 <div className="camiseta">
                     <img src={c1} alt="Camiseta Adidas" />
                     <p>Camiseta Adidas</p>
-                    <spam>R$ 59,90</spam>
+                    <span>R$ 59,90</span>
                 </div>
 
                 <div className="camiseta">
-                <img src={c2} alt="Camiseta Esportiva Coringão" />
+                    <img src={c2} alt="Camiseta Esportiva Coringão" />
                     <p>Camiseta Nike Corinthians</p>
-                    <spam>R$ 350,00</spam>
+                    <span>R$ 350,00</span>
                 </div>
 
                 <div className="camiseta">
-                <img src={c3} alt="Camiseta esportiva adidas" />
+                    <img src={c3} alt="Camiseta esportiva adidas" />
                     <p>Camiseta esportiva Adidas</p>
-                    <spam>R$ 35,00</spam>
+                    <span>R$ 35,00</span>
                 </div>
 
                 <div className="camiseta">
-                <img src={c4} alt="Camiseta  Puma" />
+                    <img src={c4} alt="Camiseta Puma" />
                     <p>Camiseta Puma</p>
-                    <spam>R$ 87,50</spam>
+                    <span>R$ 87,50</span>
                 </div>
 
                 <div className="camiseta">
-                <img src={c5} alt="Camiseta Nike" />
+                    <img src={c5} alt="Camiseta Nike" />
                     <p>Camiseta Nike</p>
-                    <spam>R$ 49,90</spam>
+                    <span>R$ 49,90</span>
                 </div>
 
                 <div className="camiseta">
-                <img src={c6} alt="Camiseta Esporte Legal Fresh" />
+                    <img src={c6} alt="Camiseta Esporte Legal Fresh" />
                     <p>Camiseta Esporte Legal Fresh</p>
-                    <spam>R$ 70,90</spam>
+                    <span>R$ 70,90</span>
                 </div>
 
             </div>
