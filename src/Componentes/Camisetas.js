@@ -1,15 +1,15 @@
+import c1 from '../assets/camiseta1.webp';
+import c2 from '../assets/camiseta2.webp';
+import c3 from '../assets/camiseta3.webp';
+import c4 from '../assets/camiseta4.webp';
+import c5 from '../assets/camiseta5.webp';
+import c6 from '../assets/camiseta6.webp';
+
 import '../Componentes/css/style.css'
-import c1 from './imgC/camiseta1.webp';
-import c2 from './imgC/camiseta2.webp';
-import c3 from './imgC/camiseta3.webp';
-import c4 from './imgC/camiseta4.webp';
-import c5 from './imgC/camiseta5.webp';
-import c6 from './imgC/camiseta6.webp';
 
 function Camisetas(){
 
     return (
-        <>
         <main>
             <div className="camisetas">
                 <div className="camiseta">
@@ -50,7 +50,6 @@ function Camisetas(){
 
             </div>
         </main>
-        </>
     )
 }
 export default Camisetas

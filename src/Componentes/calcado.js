@@ -1,10 +1,11 @@
+import cal1 from '../assets/calcado1.webp';
+import cal2 from '../assets/calcado2.webp';
+import cal3 from '../assets/calcado3.webp';
+import cal4 from '../assets/calcado4.webp';
+import cal5 from '../assets/calcado5.webp';
+import cal6 from '../assets/calcado6.webp';
+
 import '../Componentes/css/style.css'
-import cal1 from './imgCalcados/calcado1.webp';
-import cal2 from './imgCalcados/calcado2.webp';
-import cal3 from './imgCalcados/calcado3.webp';
-import cal4 from './imgCalcados/calcado4.webp';
-import cal5 from './imgCalcados/calcado5.webp';
-import cal6 from './imgCalcados/calcado6.webp';
 
 function Calçados(){
     return (
