@@ -1,0 +1,221 @@
+   #menu {
+   background-color: #000033;
+   color: #fff;
+   font-size: 1.2rem;
+   padding: 1rem;
+   text-align: center;
+   }
+
+#menu ul {
+   list-style: none;
+   margin: 0;
+   padding: 0;
+}
+
+#menu li {
+   display: inline-block;
+   margin-right: 1rem;
+}
+
+#menu li:last-child {
+   margin-right: 0;
+}
+
+#menu a {
+   color: #fff;
+   text-decoration: none;
+   padding: 0.5rem;
+}
+
+#menu a:hover {
+   background-color: #fff;
+   color: #262626;
+}
+footer {
+   position: fixed;
+   bottom: 0;
+   left: 0;
+   width: 100%;
+   text-align: center;
+   background-color: #000033;
+   padding: 1rem;
+ }
+ 
+ .rsocial {
+   display: flex;
+   justify-content: center;
+   list-style: none;
+   margin: 0;
+   padding: 0;
+ }
+ 
+ .rsocial li {
+   margin-right: 1rem;
+ }
+ 
+ .rsocial li:last-child {
+   margin-right: 0;
+ }
+
+ /* Componente Camisetas*/
+ main {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   align-items: center;
+   min-height: calc(100vh - 100px);
+ }
+ 
+ .camisetas {
+   width: 100%;
+   max-width: 1200px;
+   margin: 0 auto;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+ }
+ 
+ .camiseta {
+   width: 300px;
+   margin: 20px;
+   text-align: center;
+ }
+ 
+ .camiseta img {
+   max-width: 100%;
+   height: auto;
+ }
+ 
+ .camiseta p {
+   font-size: 20px;
+   margin: 10px 0;
+ }
+ 
+ .camiseta span {
+   font-size: 18px;
+   font-weight: bold;
+   color: #f00;
+ }
+
+/* Componente Calçados*/
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  min-height: calc(100vh - 100px);
+}
+
+.calcados {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.calcado {
+  width: 300px;
+  margin: 20px;
+  text-align: center;
+}
+
+.calcado img {
+  max-width: 100%;
+  height: auto;
+}
+
+.calcado p {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.calcado span {
+  font-size: 18px;
+  font-weight: bold;
+  color: #f00;
+}
+
+
+/* Componente Home*/
+.home {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.nome {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+button {
+  background-color: #0077ff;
+  color: #fff;
+  font-size: 1.5rem;
+  padding: 1rem 2rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #0059b3;
+}
+
+input[type="email"] {
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 1rem;
+}
+
+#userEmail {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+#userEmail span {
+  font-weight: bold;
+}
+
+button[type="submit"] {
+  background-color: #0077ff;
+  color: #fff;
+  font-size: 1.5rem;
+  padding: 1rem 2rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-bottom: 1rem;
+}
+
+button[type="submit"]:hover {
+  background-color: #0059b3;
+}
+
+ /*Componente Footer*/
+
+ .rsocial{
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    list-style: none;
+ }
+
+ .rsocial li{
+    margin: 0 1em;
+ }
+
+ .rsocial svg{
+    font-size:30px;
+    cursor: pointer;
+    color:bisque
+ }
