@@ -1,11 +1,12 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
-import Home from './Componentes/Home'
-import Calcados from './Componentes/calcado'
-import Camisetas from './Componentes/Camisetas'
-import Nav from './Componentes/Nav'
-import Footer from './Componentes/Footer'
-import Equipamento from './Componentes/equipamento'
+import Home from './pages/Home'
+import Calcados from './pages/Calcado'
+import Camisetas from './pages/Camisetas'
+import Equipamento from './pages/Equipamento'
+
+import Nav from './components/Nav'
+import Footer from './components/Footer'
 
 function App() {
   return (

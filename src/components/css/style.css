@@ -1,8 +1,8 @@
-#menu {
-   background-color: #000033;
+#menu, footer {
+   background-color: #0057B4;
    color: #fff;
    font-size: 1.2rem;
-   padding: 1rem;
+   padding: 2rem;
    text-align: center;
 }
 
@@ -25,6 +25,7 @@
    color: #fff;
    text-decoration: none;
    padding: 0.5rem;
+   transition: all 200ms;
 }
 
 #menu a:hover {
@@ -35,28 +36,24 @@
 footer {
    position: fixed;
    bottom: 0;
-   left: 0;
    width: 100%;
-   text-align: center;
-   background-color: #000033;
    padding: 1rem;
  }
  
  .rsocial {
    display: flex;
-   justify-content: center;
-   list-style: none;
-   margin: 0;
-   padding: 0;
+   align-items: center;
+
+   width: 200px;
+   margin: 0 auto;
+ }
+
+ .rsocial > svg {
+  width: 20px;
+  height: 20px;
+  margin: 5px 10px;
  }
  
- .rsocial li {
-   margin-right: 1rem;
- }
- 
- .rsocial li:last-child {
-   margin-right: 0;
- }
 
  /* Componente Camisetas*/
  main {
@@ -96,7 +93,6 @@ footer {
 .produto span {
   font-size: 18px;
   font-weight: bold;
-  color: #f00;
 }
  
 .calcados {
@@ -126,18 +122,22 @@ h1 {
 }
 
 button {
-  background-color: #0077ff;
+  background-color: #0057B4;
+
+  border: none;
   color: #fff;
   font-size: 15px;
-  padding: 8px;
+  padding: 12px 8px;
   border-radius: 5px;
   cursor: pointer;
   transition: all 0.3s ease;
-  margin-left: 5px;
+
+  width: 300px;
+  align-self: flex-end;
 }
 
 button:hover {
-  background-color: #0059b3;
+  background-color: #0077ff;
 }
 
 input[type="email"] {
@@ -157,20 +157,6 @@ input[type="email"] {
   font-weight: bold;
 }
 
-button[type="submit"] {
-  background-color: #0077ff;
-  color: #fff;
-  font-size: 1.5rem;
-  padding: 1rem 2rem;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: all 0.3s ease;
-  margin-bottom: 1rem;
-}
-
-button[type="submit"]:hover {
-  background-color: #0059b3;
-}
 
  /*Componente Footer*/
 

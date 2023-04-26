@@ -1,26 +1,20 @@
-import React,{useState} from 'react'
-import '../Componentes/css/style.css'
+import React, { useState } from 'react'
+
+import '../components/css/style.css'
 
 function Home(){    
-    //criando o useState (manipula o stado da variável)
-    const[nome,setNome]=useState("userName")
     const[email,setEmail] = useState()
     const[userEmail,setUserEmail] = useState()
  
-    // criando a função para enviar email
     function enviarEmail(e){
-
         e.preventDefault()
         setUserEmail(email)
         console.log(userEmail)
     }
-    //criando a função limpar campo
 
     function limparEmail(){
         setUserEmail('')
     }
-
-
 
     return (
         <div className="home">
@@ -29,13 +23,15 @@ function Home(){
                         
          <h2>CADASTRE SEU EMAIL</h2>
 
-         <input type="email" placeholder="Digite seu email"
-         onChange={(e)=>setEmail(e.target.value)}/>
+        <form action="">
+            <input 
+                type="email" 
+                placeholder="Digite seu email" 
+                onChange={(e)=>setEmail(e.target.value)}
+            />
 
-
-         <button onClick={enviarEmail}>
-            Enviar
-        </button>
+            <button onClick={enviarEmail}> Enviar</button>
+        </form>
        
  
          {userEmail && (
@@ -44,8 +40,6 @@ function Home(){
                 <button onClick={limparEmail}>Limpar campo</button>
             </div>
          )}
-
-
         </div>
     )
 }

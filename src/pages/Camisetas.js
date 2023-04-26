@@ -5,9 +5,9 @@ import c4 from '../assets/camiseta4.webp';
 import c5 from '../assets/camiseta5.webp';
 import c6 from '../assets/camiseta6.webp';
 
-import Produto from './produto';
+import Produto from '../components/Produto';
 
-import '../Componentes/css/style.css'
+import '../components/css/style.css'
 
 function Camisetas(){
 
@@ -20,7 +20,6 @@ function Camisetas(){
                 <Produto imagem={c4} nomeProduto="Camiseta Puma" preco="R$ 87,50" />
                 <Produto imagem={c5} nomeProduto="Camiseta Nike" preco="R$ 49,90" />
                 <Produto imagem={c6} nomeProduto="Camiseta Esporte Legal Fresh" preco="R$ 70,90" />
-
             </div>
         </main>
     )
