@@ -6,47 +6,19 @@ import cal5 from '../assets/calcado5.webp';
 import cal6 from '../assets/calcado6.webp';
 
 import '../Componentes/css/style.css'
+import Produto from './produto';
 
 function Calçados(){
     return (
         <main>
             <div className="calcados">
-                <div className="calcado">
-                    <img src={cal1} alt="calcado Adidas" />
-                    <p>Tênis Adidas esportivo feminino</p>
-                    <span>R$ 279,90</span>
-                </div>
-
-                <div className="calcado">
-                    <img src={cal2} alt="calcado Fila" />
-                    <p>Tênis Fila esportivo feminino</p>
-                    <span>R$ 149,90</span>
-                </div>
-
-                <div className="calcado">
-                    <img src={cal3} alt="calcado Nike Downshifter" />
-                    <p>Tênis esportivo masculino Nike Downshifter</p>
-                    <span>R$ 290,00</span>
-                </div>
-
-                <div className="calcado">
-                    <img src={cal4} alt="calcado Adidas 3 stripes" />
-                    <p>Tênis esportivo Adidas 3 stripes</p>
-                    <span>R$ 279,00</span>
-                </div>
-
-                <div className="calcado">
-                    <img src={cal5} alt="calcado puma" />
-                    <p>Tênis social Puma</p>
-                    <span>R$ 179,90</span>
-                </div>
-
-                <div className="calcado">
-                    <img src={cal6} alt="calcado Mizuno" />
-                    <p>Tênis esportivo Mizuno</p>
-                    <span>R$ 89,90</span>
-                </div>
-
+            <Produto imagem={cal1} nomeProduto="Tênis Adidas esportivo feminino" preco="R$ 279,90" />
+            <Produto imagem={cal2} nomeProduto="Tênis Fila esportivo feminino" preco="R$ 149,90" />
+            <Produto imagem={cal3} nomeProduto="Tênis esportivo masculino Nike Downshifter" preco="R$ 290,00" />
+            <Produto imagem={cal4} nomeProduto="Tênis esportivo Adidas 3 stripes" preco="R$ 279,00" />
+            <Produto imagem={cal5} nomeProduto="Tênis social Puma" preco="R$ 179,90" />
+            <Produto imagem={cal6} nomeProduto="Tênis esportivo Mizuno" preco="R$ 89,90" />
+ 
             </div>
         </main>
     )

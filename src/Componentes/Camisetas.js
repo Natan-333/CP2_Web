@@ -5,6 +5,8 @@ import c4 from '../assets/camiseta4.webp';
 import c5 from '../assets/camiseta5.webp';
 import c6 from '../assets/camiseta6.webp';
 
+import Produto from './produto';
+
 import '../Componentes/css/style.css'
 
 function Camisetas(){
@@ -12,41 +14,12 @@ function Camisetas(){
     return (
         <main>
             <div className="camisetas">
-                <div className="camiseta">
-                    <img src={c1} alt="Camiseta Adidas" />
-                    <p>Camiseta Adidas</p>
-                    <span>R$ 59,90</span>
-                </div>
-
-                <div className="camiseta">
-                    <img src={c2} alt="Camiseta Esportiva Coringão" />
-                    <p>Camiseta Nike Corinthians</p>
-                    <span>R$ 350,00</span>
-                </div>
-
-                <div className="camiseta">
-                    <img src={c3} alt="Camiseta esportiva adidas" />
-                    <p>Camiseta esportiva Adidas</p>
-                    <span>R$ 35,00</span>
-                </div>
-
-                <div className="camiseta">
-                    <img src={c4} alt="Camiseta Puma" />
-                    <p>Camiseta Puma</p>
-                    <span>R$ 87,50</span>
-                </div>
-
-                <div className="camiseta">
-                    <img src={c5} alt="Camiseta Nike" />
-                    <p>Camiseta Nike</p>
-                    <span>R$ 49,90</span>
-                </div>
-
-                <div className="camiseta">
-                    <img src={c6} alt="Camiseta Esporte Legal Fresh" />
-                    <p>Camiseta Esporte Legal Fresh</p>
-                    <span>R$ 70,90</span>
-                </div>
+                <Produto imagem={c1} nomeProduto="Camiseta Adidas" preco="R$ 59,90" />
+                <Produto imagem={c2} nomeProduto="Camiseta Esportiva Coringão" preco="R$ 350,00" />
+                <Produto imagem={c3} nomeProduto="Camiseta esportiva adidas" preco="R$ 35,00" />
+                <Produto imagem={c4} nomeProduto="Camiseta Puma" preco="R$ 87,50" />
+                <Produto imagem={c5} nomeProduto="Camiseta Nike" preco="R$ 49,90" />
+                <Produto imagem={c6} nomeProduto="Camiseta Esporte Legal Fresh" preco="R$ 70,90" />
 
             </div>
         </main>

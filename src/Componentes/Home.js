@@ -26,20 +26,17 @@ function Home(){
         <div className="home">
          <h1>Home</h1>
          <br/>
-         <p className="nome">Nome:  {nome}</p><br/>
-         <button onClick={()=>setNome('usuario')}>Mudar Nome</button>
-         <br/><br/>
-
+                        
          <h2>CADASTRE SEU EMAIL</h2>
 
          <input type="email" placeholder="Digite seu email"
          onChange={(e)=>setEmail(e.target.value)}/>
 
 
-         <button type="submit" onClick={enviarEmail}>
+         <button onClick={enviarEmail}>
             Enviar
         </button>
-         <br/><br/>
+       
  
          {userEmail && (
             <div>

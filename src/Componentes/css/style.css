@@ -76,39 +76,29 @@ footer {
    justify-content: space-around;
  }
  
- .camiseta {
+ .produto {
    width: 300px;
    margin: 20px;
    text-align: center;
  }
  
- .camiseta img {
+ .produto img {
    max-width: 200px;
    max-height: 200px;
    height: auto;
  }
- 
- .camiseta p {
-   font-size: 20px;
-   margin: 10px 0;
- }
- 
- .camiseta span {
-   font-size: 18px;
-   font-weight: bold;
-   color: #f00;
- }
 
-
-/* Componente Calçados*/
-main {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  align-items: center;
-  min-height: calc(100vh - 100px);
+ .produto p {
+  font-size: 20px;
+  margin: 10px 0;
 }
 
+.produto span {
+  font-size: 18px;
+  font-weight: bold;
+  color: #f00;
+}
+ 
 .calcados {
   width: 100%;
   max-width: 1200px;
@@ -117,31 +107,6 @@ main {
   flex-wrap: wrap;
   justify-content: space-around;
 }
-
-.calcado {
-  width: 300px;
-  margin: 20px;
-  text-align: center;
-}
-
-.calcado img {
-  /* max-width: 100%; */
-  max-width: 200px;
-  max-height: 200px;
-  height: auto;
-}
-
-.calcado p {
-  font-size: 20px;
-  margin: 10px 0;
-}
-
-.calcado span {
-  font-size: 18px;
-  font-weight: bold;
-  color: #f00;
-}
-
 
 /* Componente Home*/
 .home {
@@ -163,11 +128,12 @@ h1 {
 button {
   background-color: #0077ff;
   color: #fff;
-  font-size: 1.5rem;
-  padding: 1rem 2rem;
+  font-size: 15px;
+  padding: 8px;
   border-radius: 5px;
   cursor: pointer;
   transition: all 0.3s ease;
+  margin-left: 5px;
 }
 
 button:hover {
