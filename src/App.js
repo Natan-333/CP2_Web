@@ -1,10 +1,10 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
-import Home from './Componentes/home'
+import Home from './Componentes/Home'
 import Calcados from './Componentes/calcado'
-import Camisetas from './Componentes/camisetas'
-import Nav from './Componentes/nav'
-import Footer from './Componentes/footer'
+import Camisetas from './Componentes/Camisetas'
+import Nav from './Componentes/Nav'
+import Footer from './Componentes/Footer'
 import Equipamento from './Componentes/equipamento'
 
 function App() {
